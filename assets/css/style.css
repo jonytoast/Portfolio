@@ -34,13 +34,29 @@ nav {
     filter: brightness(90%);
 }
 
-/* Main section */
+/* Header section */
+
+.container {
+    height: 90vh;
+    text-align: center;
+}
 
 .special-font {
     font-family: 'Orbitron', sans-serif;
+    font-size: 2.5em;
     padding: .25em 0;
 }
 
+.blink{
+    animation: blinker 1s ease infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 .box-1 {
-    padding: 1em;
+    padding: 2.5em 2em;
 }
