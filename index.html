@@ -14,14 +14,23 @@
     <div class="personal-icon">
         <img src="./assets/images/personal-icon-.png" class="icon">
     </div>
-    <div class="nav-dropdown">
-        <button class="dropbtn">
+    <div class="dropdown">
+        <button onclick="dropDownFunction()" class="dropbtn">
             <i class="fa-solid fa-bars-staggered fa-xl"></i>
         </button>
-        <div id="mydropdown" class="dropdown-links">
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
+        <div id="mydropdown" class="dropdown-content">
+            <a href="#">
+                <i class="fa-solid fa-user"></i>
+                <span class="dropdown-tags">About</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-folder"></i>
+                <span class="dropdown-tags">Projects</span>
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-paper-plane"></i>
+                <span class="dropdown-tags">Contact</span>
+            </a>
         </div> 
     </div> 
    </nav>
