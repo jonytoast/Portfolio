@@ -64,9 +64,9 @@ nav {
 
 
 .dropbtn {
-    padding: 1.5em;
+    padding: 1.75em;
     background-color: lightgray;
-    border-radius: .50em;
+    border-radius: 1em;
     border:none
 }
 
@@ -107,4 +107,12 @@ nav {
 
 .box-1 {
     padding: 2.5em 2em;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 480px) {
+    .dropbtn {
+        padding: 2em;
+    }
 }
