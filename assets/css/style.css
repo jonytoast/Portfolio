@@ -16,7 +16,7 @@ body {
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 1.25em;
 }
 
@@ -85,8 +85,13 @@ nav {
 /* Header section */
 
 .container {
-    height: 90vh;
-    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .special-font {
@@ -107,6 +112,7 @@ nav {
 
 .box-1 {
     padding: 2.5em 2em;
+    height: 50%;
 }
 
 /* Media Queries */
@@ -115,4 +121,9 @@ nav {
     .dropbtn {
         padding: 2em;
     }
+
+    nav{
+        justify-content: space-between;
+    }
 }
+
