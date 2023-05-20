@@ -1,0 +1,21 @@
+.bar-style {
+    padding: 2rem;
+    background-color: #344E41;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon svg {
+    color: #fff;
+    width: 1.5rem;
+}
+
